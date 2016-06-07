@@ -1,0 +1,23 @@
+@relation 'cpu'
+
+@attribute MYCT numeric
+@attribute MMIN numeric
+@attribute MMAX numeric
+@attribute CACH numeric
+@attribute CHMIN numeric
+@attribute CHMAX numeric
+@attribute Process {True,  false}
+@data
+125, 256, 6000, 256, 16, 128, True
+29, 8000, 32000, 32, 8, 32, True
+29, 8000, 32000, 32, 8, 32, True
+29, 8000, 32000, 32, 8, 32, false
+29, 8000, 16000, 32, 8, 16, false
+26, 8000, 32000, 64, 8, 32, false
+23, 16000, 32000, 64, 16, 32, True
+23, 16000, 32000, 64, 16, 32, True
+23, 16000, 64000, 64, 16, 32, True
+23, 32000, 64000, 128, 32, 64, True
+400, 1000, 3000, 0, 1, 2, false
+400, 512, 3500, 4, 1, 6, false
+60, 2000, 8000, 65, 1, 8, false
